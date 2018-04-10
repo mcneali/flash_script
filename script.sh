@@ -1,9 +1,9 @@
 #!/bin/bash
 
-//Prompts user to select host type
+#Prompts user to select host type
 echo Please Select Host Type:
 
-//Different types of hosts flash instructions via DCOpile. Can be edited
+#Different types of hosts flash instructions via DCOpile. Can be edited
 OPTIONS="Foxconn_KANHA13 Foxconn_BARKLEY14"
            select opt in $OPTIONS; do
                 if [ "$opt" = "Foxconn_KANHA13" ]; then
@@ -24,7 +24,7 @@ OPTIONS="Foxconn_KANHA13 Foxconn_BARKLEY14"
                            bash ./update_all.sh
                 exit
 		
-//if valid option is not selected, user will be prompted to make selection again              
+#if valid option is not selected, user will be prompted to make selection again              
 	  	else
                   
                 	clear

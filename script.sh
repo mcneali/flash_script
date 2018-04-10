@@ -23,7 +23,7 @@ OPTIONS="Foxconn_KANHA13 Foxconn_BARKLEY14"
                 bash ./update_all.sh
                 exit
                
-		            else
+		else
                   
                 clear
                 echo Please Select Host Type:
